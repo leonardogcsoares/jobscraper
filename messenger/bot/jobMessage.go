@@ -22,7 +22,7 @@ func MountJobMessage(job model.Item, recipientID string) []byte {
 						Element{
 							Title:    job.Title,
 							ImageURL: "https://golang.org/doc/gopher/gopherbw.png",
-							Subtitle: fmt.Sprintf("%s...", job.Description[:50]),
+							Subtitle: fmt.Sprintf("%s...", job.Description[:100]),
 							Buttons: []Button{
 								Button{
 									Type:  "web_url",
