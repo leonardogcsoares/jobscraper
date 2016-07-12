@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"job-scraper/messenger/bot"
 	"log"
-	"masterlike-bot/bot"
 	"net/http"
 	"os"
 )
