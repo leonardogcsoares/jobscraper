@@ -24,5 +24,5 @@ func main() {
 
 	go sender.Run(facts)
 
-	time.Sleep(time.Second * 60)
+	time.Sleep(time.Second * 70)
 }
